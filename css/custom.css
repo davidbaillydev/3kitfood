@@ -264,7 +264,7 @@ a:hover,a:focus{ text-decoration: none}
 }
 
 /* Header */
-header{background: url(../images/header_bg.jpg)no-repeat;background-size: 100% 100%; color: #f1f1f1;overflow: hidden;}
+header{background: url(../images/header_bg.jpg)no-repeat;background-size: auto; color: #f1f1f1;overflow: hidden;}
 nav.navbar.bootsnav {
     background-color: #6e0d0dc7;
     border: 0 none;
@@ -938,7 +938,12 @@ address,.subscribe > p {
 
 @media (max-width: 767px) {
     h1 {
+
         font-size: 50px;
+    }
+    h3 {
+
+        margin-top: 150px;
     }
     .logo {
         width: 120px;
