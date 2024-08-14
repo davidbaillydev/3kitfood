@@ -293,13 +293,20 @@ nav.navbar.bootsnav {
     text-align: center;
     color: #f1f1f1;
 }
+.banner h3
+{
+    margin-top: 130px;
+    text-align: center;
+    color:#f1f1f1
+}
 .banner h1 {
+    /* margin-top: 120px; */
     text-align: center;
     color:#f1f1f1
 }
 .inner_banner {
     margin-left: 170px;
-    margin-top: 180px;
+    margin-top: 0px;
 }
 .banner_content {
     float: left;
@@ -432,7 +439,7 @@ header .caption {
     background: rgba(147, 79, 50, 0.93) none repeat scroll 0 0;
     bottom: 0;
     font-size: 14px;
-    line-height: 17px;
+    line-height: 1px;
     padding: 20px 26px 2px;
     position: absolute;
 }
